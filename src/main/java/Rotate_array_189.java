@@ -5,7 +5,7 @@ import java.util.Arrays;
 2. Reverses the subset array from 0 to k-1 elements
 3. Reverses the subset array from k to end of array
  */
-class RotateArray_189
+class Rotate_array_189
 {
     public static void rotate(int[] nums, int k) {
         int n = nums.length;
