@@ -1,7 +1,7 @@
 /**
  * reversing till half the digit and comparing the next half.
  */
-public class PalindromeNumber_9
+public class Palindrome_Number_9
 {
     public static boolean isPalindrome(int x){
         if (x < 0 || (x != 0 && x % 10 == 0)) {
