@@ -9,7 +9,7 @@ public class Maximum_Number_of_Words_Found_in_Sentences_2114
     public static int mostWordsFound(String[] sentences) {
         int max =0;
         for(String s : sentences){
-            max = Math.max(max,s.split(" ").length);
+            max = Math.max(max, s.split(" ").length);
         }
         return max;
     }
