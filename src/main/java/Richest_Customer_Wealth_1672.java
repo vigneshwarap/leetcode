@@ -15,6 +15,7 @@ public class Richest_Customer_Wealth_1672 {
     public static void main(String[] args) {
         int[][] accounts = {{1,2,5},{3,2,1}};
         System.out.println(maximumWealth(accounts));
+
     }
 
 }
