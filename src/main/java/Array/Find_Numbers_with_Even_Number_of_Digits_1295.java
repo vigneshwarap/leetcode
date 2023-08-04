@@ -13,7 +13,7 @@ public class Find_Numbers_with_Even_Number_of_Digits_1295 {
     }
 
     public static boolean isEven(int num){
-        return (digits(num) & 1) == 1;
+        return !((digits(num) & 1) == 1);
     }
 
     public static int digits(int num){
