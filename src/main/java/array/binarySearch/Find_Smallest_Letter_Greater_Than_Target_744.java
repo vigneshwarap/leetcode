@@ -12,6 +12,8 @@ public class Find_Smallest_Letter_Greater_Than_Target_744 {
             if (letters[mid] > target) end = mid -1;
             else start = mid + 1;
         }
+        // Both works
+//        return letters[start % letters.length];
         return start < letters.length ? letters[start] : letters[0];
     }
 
