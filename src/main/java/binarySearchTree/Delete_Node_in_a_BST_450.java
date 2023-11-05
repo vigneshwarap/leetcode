@@ -1,8 +1,5 @@
 package binarySearchTree;
 
-
-import java.sql.SQLOutput;
-
 //https://leetcode.com/problems/delete-node-in-a-bst/
 public class Delete_Node_in_a_BST_450 {
 
@@ -70,7 +67,7 @@ public class Delete_Node_in_a_BST_450 {
             }
             // 2 Child
             else {
-                 root.val = findMin(root.right);;
+                 root.val = findMin(root.right);
                  root.right = deleteNode(root.right, root.val);
             }
 
