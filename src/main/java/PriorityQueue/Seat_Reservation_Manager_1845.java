@@ -2,7 +2,7 @@ package PriorityQueue;
 
 import java.util.PriorityQueue;
 
-https://leetcode.com/problems/seat-reservation-manager/
+//https://leetcode.com/problems/seat-reservation-manager/
 
 public class Seat_Reservation_Manager_1845 {
 
