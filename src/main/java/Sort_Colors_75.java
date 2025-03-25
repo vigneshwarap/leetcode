@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 
 // https://leetcode.com/problems/sort-colors/description/
+// Hint : Dutch national flag algorithm
 public class Sort_Colors_75 {
 
     public void sortColors(int[] nums) {
