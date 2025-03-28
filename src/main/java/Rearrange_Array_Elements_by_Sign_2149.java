@@ -6,12 +6,12 @@ public class Rearrange_Array_Elements_by_Sign_2149 {
     public int[] rearrangeArray(int[] nums) {
         int n = nums.length, pos = 0, neg = 1;
         int[] ans = new int[n];
-        for( int i  = 0; i < n; i++) {
-            if (nums[i] < 0) {
-                ans[neg] = nums[i];
+        for( int i  : nums) {
+            if (i < 0) {
+                ans[neg] = i;
                 neg += 2;
             } else {
-                ans[pos] = nums[i];
+                ans[pos] = i;
                 pos += 2;
             }
         }
