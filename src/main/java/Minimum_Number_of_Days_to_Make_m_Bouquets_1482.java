@@ -5,7 +5,7 @@
 public class Minimum_Number_of_Days_to_Make_m_Bouquets_1482 {
 
     public int minDays(int[] bloomDay, int m, int k) {
-        if (bloomDay.length < m * k) return -1;
+        if ((long)bloomDay.length < (long)m * (long)k) return -1;
         int ans = Integer.MAX_VALUE;
 
         int low = Integer.MAX_VALUE;
