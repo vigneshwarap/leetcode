@@ -9,10 +9,3 @@ public class Delete_Node_in_a_Linked_List_237 {
         node.next = node.next.next;
     }
 }
-
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
