@@ -3,7 +3,7 @@ package leetcode;
 import java.util.Stack;
 
 // 232. Implement Queue using Stacks
-//
+// https://leetcode.com/problems/implement-queue-using-stacks/description/
 public class Implement_Queue_using_Stacks_232 {
     Stack<Integer> s1;
     Stack<Integer> s2;
